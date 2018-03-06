@@ -1,72 +1,72 @@
 var triviaQuestions = [{
-	question: "In what year was Pixar founded?",
-	answerList: ["1979", "1986", "1995", "2000"],
+	question: "What is the best selling Nintendo exclusive game of all time?",
+	answerList: ["Duck Hunt", "Super Mario Bros", "Mario Kart", "Wii Sports"],
+	answer: 3
+},{
+	question: "Which of the following games did Mario creator Shigeru Miyamoto NOT design?",
+	answerList: ["Donkey Kong", "Kid Icarus", "Excitebike", "The Legend of Zelda"],
 	answer: 1
 },{
-	question: "Which tech mogul provided funding and became a co-founder of Pixar?",
-	answerList: ["Steve Jobs", "Bill Gates", "Peter Thiel", "Mark Zuckerberg"],
+	question: "What is the first game with Princess Zelda as a playable character?",
+	answerList: ["Zelda: Wand of Gamelon", "The Legend of Zelda: Ocarina of Time", "Super Smash Bros Melee", "Super Smash Bros Brawl"],
 	answer: 0
 },{
-	question: "What was Pixar's first feature-length film that was released in 1995?",
-	answerList: ["Toy Story", "A Bug's Life", "Monster's Inc", "Finding Nemo"],
-	answer: 0
-},{
-	question: "Who was the first Pixar character added to the Disney Princess line-up?",
-	answerList: ["Jessie", "Repunzel", "Merida", "Elsa"],
+	question: "What is the best selling Nintendo handheld of all time?",
+	answerList: ["GameBoy", "Game Boy Advance", "DS", "3DS"],
 	answer: 2
 },{
-	question: "What's the name of Pixar's first short film, also known as their mascot?",
-	answerList: ["Lampo", "Junior", "Pixie", "Luxo Jr."],
-	answer: 3
-},{
-	question: "How many sequels does Pixar currently have released? (as of August 2016)",
-	answerList: ["5", "3", "6", "7"],
+	question: "Which pro baseball team did Nintendo become majority owner of in 1992?",
+	answerList: ["Seattle Mariners", "Oakland Athletics", "Kansas City Royals", "Tampa Bay Rays"],
 	answer: 0
 },{
-	question: "Which film won Pixar's first Academy Award for Best Animated Feature?",
-	answerList: ["Toy Story", "Finding Nemo", "Up", "Wall-E"],
-	answer: 1
+	question: "Which Nintendo game caused enough injuries in children to result in a $80M settlement?",
+	answerList: ["Tony Hawk's Pro Skater", "Super Smash Bros", "Mario Kart 64", "Mario Party"],
+	answer: 3
 },{
-	question: "Who directed Pixar's first three feature films?",
-	answerList: ["Peter Docter", "Brad Bird", "John Lasseter", "Peter Sohn"],
+	question: "What is the first Nintendo game to feature Mario in it?",
+	answerList: ["Mario Bros", "Tennis", "Donkey Kong", "Wrecking Crew"],
 	answer: 2
 },{
-	question: "Who voiced Sadness in 'Inside Out'?",
-	answerList: ["Amy Poehler", "Phyllis Smith", "Mindy Kaling", "Phyllis Vance"],
-	answer: 1
-},{
-	question: "Billy Crystal voices Mike Wazowski in 'Monster, Inc.' but what role did he originally turn down from Pixar?",
-	answerList: ["Hopper", "Woody", "Marlin", "Buzz Lightyear"],
-	answer: 3
-},{
-	question: "The voice of WALL-E, Ben Burtt, also voiced what other famous robot?",
-	answerList: ["R2-D2", "Alpha 5", "C-3PO", "Astro Boy"],
+	question: "What is the name of Nintendo's first-ever 'Game & Watch' title?",
+	answerList: ["Ball", "Oil Panic", "Egg", "Mario Bros"],
 	answer: 0
 },{
-	question: "Brad Bird directed which animated film prior to taking on 'The Incredibles'?",
-	answerList: ["The Brave Little Toaster", "The Iron Giant", "Tarzan", "The Prince of Egypt"],
-	answer: 1
-},{
-	question: "Pixar was originally a division of which studio?",
-	answerList: ["Dreamworks", "Industrial Light & Magic", "Disney", "Lucasfilm"],
+	question: "Which film inspired the enemies in Nintendo's Metroid series?",
+	answerList: ["Star Wars", "Galaxy of Terror", "Predator", "Alien"],
 	answer: 3
 },{
-	question: "What is the name of the famour explorer from 'Up' that Carl looked up to as a boy?",
-	answerList: ["Charles F. Muntz", "Chuck M. James", "Charlie Rose", "Carl Carlton"],
+	question: "What was the first NES game to use the Konami Code?",
+	answerList: ["Contra", "Life Force", "Gradius", "R-Type"],
+	answer: 2
+},{
+	question: "What was Nintendo's original line of business when the company was founded in 1889?",
+	answerList: ["Hotels", "Instant Rice", "Taxi Company", "Playing Cards"],
+	answer: 3
+},{
+	question: "What was the first SNES game to use the Super FX chip?",
+	answerList: ["Pilotwings", "Star Fox", "Doom", "Super Mario World 2: Yoshi's Island"],
+	answer: 1
+},{
+	question: "What was the first Nintendo game to have a save game feature?",
+	answerList: ["Dragon Warrior", "Final Fantasy", "Metroid", "The Legend of Zelda"],
+	answer: 3
+},{
+	question: "What was Mario's original name?",
+	answerList: ["Jumpman", "Big Red", "Luigi", "Wario"],
 	answer: 0
 },{
-	question: "'A Bug's Life' was loosely based on what other film?",
-	answerList: ["I Live in Fear", "Rashomon", "Seven Samurai", "Magneficent Seven"],
+	question: "What was Final Fantasy 6 relased as in the United States?",
+	answerList: ["Final Fantasy 2", "Final Fantasy Mystic Quest", "Final Fantasy 3", "Final Fantasy 4"],
 	answer: 2
 }];
 
 var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9', 'question10', 'question11', 'question12', 'question13','question14','question15'];
 var currentQuestion; var correctAnswer; var incorrectAnswer; var unanswered; var seconds; var time; var answered; var userSelect;
 var messages = {
-	correct: "Yes, that's right!",
-	incorrect: "No, that's not it.",
-	endTime: "Out of time!",
-	finished: "Alright! Let's see how well you did."
+	correct: "It's dangerous to go alone. Take this correct answer with you.",
+	incorrect: "Sorry, your princess is in another castle",
+	endTime: "You're out of time!",
+	finished: "Let's see how well you did!"
 }
 
 $('#startBtn').on('click', function(){
