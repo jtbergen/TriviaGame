@@ -28,7 +28,7 @@ header{
 }
 
 h2, #message, #finalMessage{
-	font-family: Sigmar One;
+	font-family: 'Sigmar One';
 }
 
 .thisChoice:hover{

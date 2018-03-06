@@ -64,7 +64,7 @@ var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5',
 var currentQuestion; var correctAnswer; var incorrectAnswer; var unanswered; var seconds; var time; var answered; var userSelect;
 var messages = {
 	correct: "It's dangerous to go alone. Take this correct answer with you.",
-	incorrect: "Sorry, your princess is in another castle",
+	incorrect: "Sorry, your answer is in another castle",
 	endTime: "You're out of time!",
 	finished: "Let's see how well you did!"
 }
